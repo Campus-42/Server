@@ -1,0 +1,20 @@
+{
+  "saveToDatabase": false,
+  "unlistPassedEvents": true,
+  "sendNotificiationAheadofEvent": {
+    "send": true,
+    "minutes": 60
+  },
+  "scriptInterval": 5,
+  "mongoDBPath": "/media/pi/189D-D988/MongoDB",
+  "repeatCreationDaysAdvance": 77,
+  "shouldRepeatEvents": false,
+  "numberOfRepeatsMaximum": 9,
+  "expireInvites": true,
+  "debugErrors": true,
+  "giveEventEndPoints": true,
+  "giveBubblePoints": true,
+  "expireInvitesForPassedEvents": true,
+  "deleteEventNotificationTopic": true,
+  "deleteEventBubble": true
+}

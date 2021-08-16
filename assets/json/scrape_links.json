@@ -1,0 +1,22 @@
+{
+  "campuses": [
+    {
+      "key": "university_of_buckingham",
+      "domain": "buckingham.ac.uk",
+      "name": "The University of Buckingham",
+      "base_url": "https://su.buckingham.ac.uk",
+      "scrape_urls": [
+        {
+          "type": "events",
+          "url": "https://su.buckingham.ac.uk/barevents/whats_on",
+          "accepted": ["/ents/event/", "/events/"]
+        },
+        {
+          "type": "announcements",
+          "url": "https://su.buckingham.ac.uk/news/",
+          "accepted": ["/news/article/", "/asset/News/"]
+        }
+      ]
+    }
+  ]
+}
